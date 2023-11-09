@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <i class="fa fa-home"></i>
+    <title>SHEE-VAN</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+</head>
+<body>
+    <section id="banner">
+        <div class="banner-text">
+            <h1>SHIVA-HAPPY</h1>
+            <P>Smile And Keep It Going</P>
+            <div class="banner-btn">
+                <a href="#"><SPan></SPan> Find Out</a>
+                <a href="#"><SPan></SPan> Read More</a>
+            </div>
+        </div>
+    </section>
+    <section id="family">
+        <div class="title-txt">
+            <p>HAPPY-FAMILY</p>
+            <h1>Eyes Open Always</h1>
+        </div>
+        <div class="family-box">
+            <div class="famil">
+                <h1>United Always</h1>
+                <div class="family-desc">
+                    <p>Family always provides a steping stone for startup in life and its always a plesure when
+                        all members concide.
+                    </p>
+                </div>
+            </div>
+            <div class="family-img">
+                <img src="image/j.jpg">
+            </div>
+        </div>
+    </section>
+    <section id="gallery">
+        <div class="title-txt">
+            <p>My Looks</p>
+            <h1>Eyes Open Always</h1>
+        </div>
+        <div class="container">
+            <div class="gallery">
+                <img src="image/m.jpg">
+                <img src="image/th.jpg">
+                <img src="image/u.jpg">
+                <img src="image/e.jpg">
+                <img src="image/s.jpg">
+            </div>
+        </div>
+    </section>
+    <section id="foot">
+        <img src="image/footer-img.png" class="foot-img" >
+            <div class="title-txt">
+                <p>CONTACT</p>
+                <h1>Ready To Meet You</h1>
+            </div>
+            <div class="foot-row">
+                <div class="foot-left">
+                    <h1>Readytalk Hours</h1>
+                    <p><i class="fa fa-clock-o"></i> Monday to Friday - 9am to 9pm</p>
+                    <p><i class="fa fa-clock-o"></i> Saturday and Sunday - 8am to 11pm</p>
+                </div>
+                <div class="foot-right">
+                    <h1>Get In Touch </i></h1>
+                    <p>#Valley View Hostel Kiziri <i class="fa fa-map-marker"></i></p>
+                    <p>shiva@gmail.com <i class="fa fa-paper-plane"></i></p>
+                    <p>+256-709876534<i class="fa fa-phone"></i></p>
+                </div>
+
+            </div>
+            <div class="social-link">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-youtube-play"></i>
+                <p>Copyright @Shiva Quilt</p>
+            </div>
+        
+    </section>
+    <div id="sideNav">
+        <nav>
+            <ul>
+                <li><a href="#banner">HOME</a></li>
+                <li><a href="#family">FAMILY</a></li>
+                <li><a href="#gallery">GALLERY</a></li>
+                <li><a href="#foot">MEET ME</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="menuBtn">
+        <img src="image/menu.png" id="menu">
+    </div>
+    <script>
+        var menuBtn =document.getElementById("menuBtn")
+        var sideNav =document.getElementById("sideNav")
+        var menu =document.getElementById("menu")
+
+        sideNav.style.right ="-250px";
+
+        menuBtn. onclick = function(){
+            if(sideNav.style.right =="-250px"){
+                sideNav.style.right ="0";
+            
+            }
+            else{
+                sideNav.style.right ="-250px";
+            }
+        }
+        var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 1000,
+	speedAsDuration: true
+});
+    </script>
+</body>
+</html>
